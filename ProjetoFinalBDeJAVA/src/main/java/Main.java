@@ -22,7 +22,7 @@ public class Main {
         Jogador j1 =new Jogador();
         Jogador j2 =new Jogador();
         JogadorDAO jd = new JogadorDAO();
-        TokenDAO TD= new TokenDAO();
+        TokenDAO td= new TokenDAO();
         Token t1 =new Token();
         Token t2 =new Token();
         SeversDAO sd = new SeversDAO();
@@ -79,9 +79,9 @@ public class Main {
         p6.id_jogador=j2.idJogador;
         pd.inserirPersonagem(p6);
         t1.token = 201212;
-        TD.inserirToken(t1);
+        td.inserirToken(t1);
         t2.token = 23457;
-        TD.inserirToken(t2);
+        td.inserirToken(t2);
         s1.regiao = "Brasil";
         sd.inserirSevers(s1);
         s2.regiao = "USA";
