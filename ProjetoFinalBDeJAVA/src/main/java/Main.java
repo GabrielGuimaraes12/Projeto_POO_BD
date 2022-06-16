@@ -39,7 +39,7 @@ public class Main {
         j2.nome="Joao";
         j2.idade =24;
         j2.senha=1232;
-        j2.endereço="bairro inatel";
+        j2.endereço="Bairro inatel";
         jd.inserirJogador(j1);
         jd.inserirJogador(j2);
         p1.nome= "Kana";
@@ -91,8 +91,7 @@ public class Main {
         Scanner entrada=new Scanner(System.in);
         boolean flag = true;
 
-        int maiorPreco=100;
-        int menorPreco=-1;
+        
 
         while(flag){
 
