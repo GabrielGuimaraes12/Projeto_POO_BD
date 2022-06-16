@@ -90,9 +90,6 @@ public class Main {
 
         Scanner entrada=new Scanner(System.in);
         boolean flag = true;
-
-        
-
         while(flag){
 
             System.out.println("**Opcoes disponiveis**");
